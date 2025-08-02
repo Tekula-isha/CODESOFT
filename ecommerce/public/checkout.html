@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <h1><a href="/">E-Commerce Shop</a></h1>
+        <nav>
+            <ul>
+                <li><a href="/">Products</a></li>
+                <li><a href="/cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2>Checkout Summary</h2>
+        <div id="checkout-summary">
+            <h3>Items in your order:</h3>
+            <ul id="checkout-summary-list">
+                <li>Loading summary...</li>
+            </ul>
+            <div class="total-price">
+                Total: <span id="checkout-total-price">$0.00</span>
+            </div>
+        </div>
+
+        <button id="place-order-btn" class="place-order-btn">Place Order (Demo)</button>
+    </main>
+
+    <script type="module" src="/js/cart.js"></script>
+</body>
+</html>
